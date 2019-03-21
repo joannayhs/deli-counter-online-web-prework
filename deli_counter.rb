@@ -24,7 +24,7 @@ def now_serving(array)
    currently_serving = "Currently serving"
    array.each do |name|
    array.shift
-   currently_serving << "#{name}."
+   currently_serving << "#{array.first}."
 end 
 end 
 end 
