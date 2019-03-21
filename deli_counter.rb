@@ -28,3 +28,4 @@ def now_serving(array)
 end 
 puts string
 end 
+end 
