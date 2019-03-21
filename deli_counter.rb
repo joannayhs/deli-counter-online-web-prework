@@ -18,6 +18,8 @@ def take_a_number(array, name)
 end
 
 def now_serving(array)
-  array.shift(name)
+  array.each do |name|
+  array.shift 
   puts "Currently seving #{name}"
+end 
 end 
