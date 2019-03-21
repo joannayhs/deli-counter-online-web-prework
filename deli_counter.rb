@@ -18,6 +18,6 @@ def take_a_number(array, name)
 end
 
 def now_serving(array)
-  puts "Currently serving #{array.unshift}"
-  
+  array.shift
+  puts "Currently seving #{name}"
 end 
