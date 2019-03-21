@@ -18,10 +18,12 @@ def take_a_number(array, name)
 end
 
 def now_serving(array)
-  string = "Currently serving"
+  string = "Currently serving "" ."
   array.each do |name|
   array.shift
-  string << name.
+  string << name
+end 
+puts string
 end 
 if array.size == 0
  puts "There is nobody waiting to be served!"
