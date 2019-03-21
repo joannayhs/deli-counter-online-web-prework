@@ -21,7 +21,7 @@ def now_serving(array)
  if array.size == 0
  puts "There is nobody waiting to be served!"
  else 
-  string = "Currently serving "" ."
+  string = "Currently serving"
   array.each do |name|
   array.shift
   string << name
