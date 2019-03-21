@@ -19,7 +19,7 @@ end
 
 def now_serving(array)
   array.each do |name|
-  array.shift 
+  array.shift(name)
   puts "Currently seving #{name}"
 end 
 end 
